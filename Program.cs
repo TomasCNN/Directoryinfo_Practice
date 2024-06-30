@@ -206,7 +206,7 @@
         }
         catch (Exception ex)
         {
-            ;
+            Console.WriteLine("程序异常！");
         }
     }
 }
