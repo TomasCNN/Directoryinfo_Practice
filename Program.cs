@@ -143,12 +143,6 @@
             Console.WriteLine(f.Name);
         }
 
-        // 初始化一个子文件夹路径
-        string newSubfolderPath = Path.Combine(folderPath,"newSubFolder");
-
-        // 初始化一个子文件夹对象
-        DirectoryInfo newSubDirectory = directoryInfo.CreateSubdirectory("newSubfolder");
-
         // 移动文件夹到新路径
         // 初始化待移动文件夹路径
         string movedFolderPath = @".\\moveSubfolder";
